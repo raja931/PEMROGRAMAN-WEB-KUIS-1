@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav button {
+            color: #fff;
+            background-color: #555;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .gambar-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gambar {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> </h1>
+    </header>
+    <nav>
+        <button onclick="ubahWarna('red')">Merah</button>
+        <button onclick="ubahWarna('green')">Hijau</button>
+        <button onclick="ubahWarna('blue')">Biru</button>
+    </nav>
+    <section>
+        <h2></h2>
+        <div class="gambar-container">
+            <img class="Huawei-nova 3" src="Huawei-nova-3.png" alt="Gambar 1">
+
+         <div class="gambar-container">
+            <img class="Huawei-nova 3" src="Asus ROG 3.png" alt="Gambar 2">
+
+        <div class="gambar-container">
+            <img class="Huawei-nova 3" src="sony xperia 5.png" alt="Gambar 3">
+        </div> 
+    </section>
+    <footer>
+        <p>Hak Cipta &copy; 2024 RajaPhone.</p>
+    </footer>
+
+    <script>
+        function ubahWarna(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
